@@ -1,10 +1,10 @@
 <template>
   <nav id="nav">
-    <router-link to="/" id="logo_url">
+    <router-link :to="{name: 'Home'}" id="logo_url">
       <img id="logo" :src="logo" :alt="alt" />
     </router-link>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/pedidos">Pedidos</router-link>
+    <router-link :to="{name: 'Home'}">Home</router-link> |
+    <router-link :to="{name: 'Pedidos'}">Pedidos</router-link>
   </nav>
 </template>
 
