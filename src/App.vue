@@ -2,6 +2,7 @@
   <div>
     <Navbar :logo="logo" :alt="app_name" />
     <router-view />
+    <!-- <Banner /> -->
     <Footer />
   </div>
 </template>
@@ -9,32 +10,38 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+// import Banner from "./components/Banner.vue";
 
 export default {
   components: {
     Navbar,
     Footer,
+    // Banner
   },
   data() {
-    return {
-      logo: "/img/logo.png",
-      app_name: "burguer",
-    };
+    return {}
   },
 };
 </script>
 
-<style>
+<style lang="scss">
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
 
 .mainContainer {
-  margin: 50px;
-  min-height: 250px;
+  width: 100%;
+  height: 850px;
 }
 
 h1 {

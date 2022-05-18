@@ -1,6 +1,8 @@
 <template>
   <footer id="footer">
-    <p>Make Your Burguer</p>
+    <div class="content">
+      <p>Make Your Burguer</p>
+    </div>
   </footer>
 </template>
 
@@ -18,6 +20,10 @@ export default {
   color: #fcba03;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   width: 100%;
+}
+.content{
+  margin: 0 100px 0 0;
 }
 </style>
