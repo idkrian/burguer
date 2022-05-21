@@ -23,8 +23,13 @@
       </div>
       <div class="input-container">
         <label for="carne">Escolha a carne do seu Burger:</label>
-        <select name="carne" id="carne" v-model="carne">
-          <option value="">Selecione o tipo de carne</option>
+        <select
+          name="carne"
+          id="carne"
+          v-model="carne"
+          selected="Selecione o tipo de Carne:"
+        >
+          <option value="" selected>Selecione o tipo de carne</option>
           <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">
             {{ carne.tipo }}
           </option>
@@ -99,7 +104,7 @@ export default {
       this.nome = "";
       this.pao = "";
       this.carne = "";
-      this.opcionais = "";
+      this.opcionais = [];
 
       //Mensagem
       this.msg = "Criado com Sucesso!";

@@ -79,8 +79,21 @@
   ],
   "burgers": [
     {
-      "nome": "Rian",
-      "carne": "Picanha",
+      "nome": "Douglas",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 6
+    },
+    {
+      "nome": "Lanna",
+      "carne": "Alcatra",
       "pao": "Integral",
       "opcionais": [
         "Bacon",
@@ -89,52 +102,44 @@
         "Cheddar"
       ],
       "status": "Solicitado",
-      "id": 1
+      "id": 7
     },
     {
-      "nome": "Carlos",
-      "carne": "Maminha",
+      "nome": "Lourdes",
+      "carne": "Picanha",
       "pao": "Italiano Branco",
       "opcionais": [
+        "Salame",
         "Bacon",
-        "Cheddar"
+        "Tomate"
       ],
       "status": "Solicitado",
-      "id": 2
+      "id": 8
     },
     {
-      "nome": "Alex",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
+      "nome": "Patrick",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
       "opcionais": [
+        "Cheddar",
+        "Pepino",
         "Salame",
-        "Cebola roxa",
         "Bacon"
       ],
       "status": "Solicitado",
-      "id": 3
+      "id": 9
     },
     {
-      "nome": "Cleitin",
+      "nome": "João Pedro",
       "carne": "Alcatra",
-      "pao": "3 Queijos",
+      "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
-        "Salame"
+        "Tomate",
+        "Cheddar"
       ],
       "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Claudio",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 5
+      "id": 10
     }
   ]
 }

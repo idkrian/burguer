@@ -1,6 +1,6 @@
 <template>
   <footer id="footer">
-    <p>Make Your Burguer</p>
+    <p>Make Your Burger &copy; 2021</p>
   </footer>
 </template>
 
@@ -18,7 +18,8 @@ export default {
   color: #fcba03;
   display: flex;
   align-items: center;
+  justify-content: center;
+  bottom: 0;
   width: 100%;
-  bottom: 1px;
 }
 </style>
